@@ -1,0 +1,86 @@
+/* Importing some fonts */
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+/* This global selector applies to the entire page */
+* {
+  /* border: dashed 1px; /*To determine the layout*/
+  margin-left: -.1px; /* These margin settings makes that the navigation bar */
+  margin-top: -.1px;  /* don't mess up. */
+}
+
+/* All of the navigation bar customization. .topBar */
+.topBar {
+  top: 0;
+  width: 100%;
+  position: fixed; /* so it doesn't get left behind whilst scrolling */
+  z-index: 99; /* so that it'll be at the top of everything */
+  background-color: rgba(256, 256, 256, 0.7);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.topBar ul, .topBar p {
+  color: black;
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 12pt;
+  font-weight: normal;
+}
+.topBar p  {
+  position: absolute;
+  right: 60px;
+  top: 28%;
+  color: rgb(128, 128, 128);
+  font-style: oblique;
+  font-weight: 300;
+}
+.topBar ul {
+  list-style-type: none;
+  padding: 14px 50px;
+  padding-top: -10px;
+}
+.topBar ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.topBar #currentPage {
+  font-weight: 800;
+}
+/*
+  To better position it. Set so that ".topBar" and <hr> overlap nicely
+  and does not overextend towards the content.
+*/
+.topBar hr {
+  margin: -16px 0 0 0;
+  height: -1px;
+}
+
+/* Now, onto the main stuff here! */
+.main {
+  margin-left: 60px; /* Restoring some margin for the header and body */
+  margin-right: 60px;
+  margin-top: 0px; /* Just so it wouldn't slip under .topBar */
+}
+
+/* Header customisation here! */
+#header {
+  margin-left: -60px;
+  margin-right: -70px;
+  background-image: url(images/hero1.jpg);
+  background-position: -300px -10px;
+  background-origin: border-box;
+  color: white;
+  height: 550px;
+}
+#header h1{
+  margin-left: 60px;
+  margin-bottom: 0px;
+  padding-top: 200px;
+  font-family: "Slabo 27px", serif;
+  font-size: 72pt;
+}
+#header h2 {
+  margin-left: 60px;
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 28pt;
+  font-weight: 200;
+  color: rgb(195, 195, 195);
+}
