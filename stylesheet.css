@@ -1,6 +1,3 @@
-/* Importing some fonts */
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-
 /* This global selector applies to the entire page */
 * {
   /* border: dashed 1px; /*To determine the layout*/
@@ -27,14 +24,14 @@
 .topBar p  {
   position: absolute;
   right: 60px;
-  top: 28%;
+  top: 30%;
   color: rgb(128, 128, 128);
   font-style: oblique;
   font-weight: 300;
 }
 .topBar ul {
   list-style-type: none;
-  padding: 14px 50px;
+  padding: 14px 60px;
   padding-top: -10px;
 }
 .topBar ul li {
@@ -62,10 +59,11 @@
 
 /* Header customisation here! */
 #header {
-  margin-left: -60px;
-  margin-right: -70px;
+  margin-left: -60px; /* so that it covers the whole screen without overfilling */
+  margin-right: -68px; /* ditto, although this one is hard to get it right */
+  background-color: black;
   background-image: url(images/hero1.jpg);
-  background-position: -300px -10px;
+  background-position: -390px -10px;
   background-origin: border-box;
   color: white;
   height: 550px;
@@ -76,11 +74,63 @@
   padding-top: 200px;
   font-family: "Slabo 27px", serif;
   font-size: 72pt;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.59);
+  hyphens: auto;
 }
 #header h2 {
   margin-left: 60px;
   font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
-  font-size: 28pt;
+  font-size: 30pt;
   font-weight: 200;
   color: rgb(195, 195, 195);
+}
+
+/* Body customisation here! */
+#body {
+  width: 60%;
+  margin: 40px 0;
+  text-align: justify;
+}
+#body h1 {
+  font-family: "Playfair Display", "Slabo 27px", serif;
+  font-size: 48pt;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: rgb(30, 36, 46);
+}
+#body h2 {
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 30pt;
+  margin-bottom: 6pt;
+}
+#body p {
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 16pt;
+  hyphens: auto;
+  margin-bottom: 16pt;
+  line-height: 170%;
+}
+
+/* Footer stuff here! */
+#footer {
+  background-color: rgb(37, 40, 51);
+  width: 100%;
+  height: 170px;
+  clear: both;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -60px;
+  margin-right: -70px;
+  margin-bottom: -10px;
+}
+#footer #topFoot p {
+  margin-top: 40px;
+}
+#footer p {
+  margin-left: 60px;
+  color: rgb(206, 217, 236);
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+#footer a {
+  color: rgb(135, 157, 214);
 }
