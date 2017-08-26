@@ -11,7 +11,7 @@
   width: 100%;
   position: fixed; /* so it doesn't get left behind whilst scrolling */
   z-index: 99; /* so that it'll be at the top of everything */
-  background-color: rgba(256, 256, 256, 0.7);
+  background-color: rgba(256, 256, 256, 0.8);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
