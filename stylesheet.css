@@ -43,7 +43,7 @@
 }
 /*
   To better position it. Set so that ".topBar" and <hr> overlap nicely
-  and does not overextend towards the content.
+  and does not overextend toward the content.
 */
 .topBar hr {
   margin: -16px 0 0 0;
