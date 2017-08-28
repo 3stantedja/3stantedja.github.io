@@ -14,25 +14,34 @@
   background-color: rgba(256, 256, 256, 0.8);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  min-width: 300px;
 }
 .topBar ul, .topBar p {
   color: black;
   font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
   font-size: 12pt;
   font-weight: normal;
+  overflow: hidden;
 }
 .topBar p  {
+  float: right;
+  clear: left;
   position: absolute;
+  margin-left: 60px; /* So that at smaller viewport widths it looks correct */
   right: 60px;
-  top: 30%;
+  top: 27%;
+  padding-bottom: 10px;
+  width: auto;
   color: rgb(128, 128, 128);
   font-style: oblique;
   font-weight: 300;
 }
 .topBar ul {
   list-style-type: none;
+  width: 50%;
   padding: 14px 60px;
   padding-top: -10px;
+  clear: right;
 }
 .topBar ul li {
   display: inline-block;
@@ -61,28 +70,38 @@
 #header {
   margin-left: -60px; /* so that it covers the whole screen without overfilling */
   margin-right: -68px; /* ditto, although this one is hard to get it right */
+  padding-bottom: 20px;
   background-color: black;
   background-image: url(images/hero1.jpg);
   background-position: -390px -10px;
   background-origin: border-box;
   color: white;
   height: 550px;
+  overflow: hidden;
 }
 #header h1{
+  float: left;
+  clear: left;
   margin-left: 60px;
   margin-bottom: 0px;
   padding-top: 200px;
+  line-height: 100%;
   font-family: "Slabo 27px", serif;
   font-size: 72pt;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.59);
   hyphens: auto;
 }
 #header h2 {
+  float: left;
+  clear: left;
   margin-left: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
   font-size: 30pt;
   font-weight: 200;
   color: rgb(195, 195, 195);
+  overflow: hidden;
 }
 
 /* Body customisation here! */
@@ -124,10 +143,11 @@
   margin-bottom: -10px;
 }
 #footer #topFoot p {
-  margin-top: 40px;
+  margin-top: 35px;
 }
 #footer p {
   margin-left: 60px;
+  margin-top: -10px;
   color: rgb(206, 217, 236);
   font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
