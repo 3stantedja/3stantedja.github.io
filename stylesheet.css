@@ -143,9 +143,10 @@
   margin-left: -60px;
   margin-right: -70px;
   margin-bottom: -10px;
+  overflow: hidden;
 }
 #footer #topFoot p {
-  margin-top: 35px;
+  padding-top: 45px;
 }
 #footer p {
   margin-left: 60px;
