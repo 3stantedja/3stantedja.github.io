@@ -48,7 +48,7 @@
   padding-right: 20px;
 }
 .topBar ul li a {
-  
+
 }
 .topBar #currentPage {
   font-weight: 800;
@@ -73,9 +73,8 @@
 #header {
   margin-left: -60px; /* so that it covers the whole screen without overfilling */
   margin-right: -68px; /* ditto, although this one is hard to get it right */
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
   background-color: black;
-  background-image: url(images/hero1.jpg);
   background-position: -390px -10px;
   background-origin: border-box;
   color: white;
