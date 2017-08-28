@@ -2,7 +2,7 @@
 * {
   /* border: dashed 1px; /*To determine the layout*/
   margin-left: -.1px; /* These margin settings makes that the navigation bar */
-  margin-top: -.1px;  /* don't mess up. */
+  margin-top: -.1px;  /* look cleaner. */
 }
 
 /* All of the navigation bar customization. .topBar */
