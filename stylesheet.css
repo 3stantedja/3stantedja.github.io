@@ -145,7 +145,7 @@
   margin-bottom: -10px;
   overflow: hidden;
 }
-#footer #topFoot p {
+#footer #topFoot p, #footer #topFoot h3 {
   padding-top: 45px;
 }
 #footer p {
