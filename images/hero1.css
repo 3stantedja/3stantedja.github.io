@@ -3,3 +3,6 @@
   background-image: url(hero1.jpg);
   background-position: -390px -10px;
 }
+#header h2 {
+  color: rgb(193, 193, 193);
+}
