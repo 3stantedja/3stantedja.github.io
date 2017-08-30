@@ -1,5 +1,4 @@
-# 3stantedja.github.io
----
+# [3stantedja.github.io]
 ## What?
 A personal and experimental website.
 ## Why?
