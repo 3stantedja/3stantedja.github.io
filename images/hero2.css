@@ -1,8 +1,11 @@
 #header {
-  background-color: rgb(161, 161, 161);
+  background-color: rgb(184, 202, 219);
   background-image: url(hero2.jpg);
   background-position: -2150px -450px;
 }
+#header h1 {
+  color: rgb(15, 17, 20);
+}
 #header h2 {
-  color: rgb(36, 40, 50);
+  color: rgb(50, 57, 73);
 }

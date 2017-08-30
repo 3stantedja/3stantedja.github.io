@@ -79,7 +79,6 @@
   margin-right: -68px; /* ditto, although this one is hard to get it right */
   padding-bottom: 20px;
   background-origin: border-box;
-  color: white;
   height: 550px;
   overflow: hidden;
 }
@@ -92,7 +91,7 @@
   line-height: 100%;
   font-family: "Slabo 27px", serif;
   font-size: 72pt;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.59);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.59);
   hyphens: auto;
 }
 #header h2 {
