@@ -48,7 +48,11 @@
   padding-right: 20px;
 }
 .topBar ul li a {
-  
+  color: black; /* make link color black so that it looks uniform */
+  text-decoration: none; /* for uniformity, and so that it does not look odd */
+}
+.topBar ul li a:hover {
+  text-decoration: underline; /* we still need the user to have some feedback when hovering a link */
 }
 .topBar #currentPage {
   font-weight: 800;
@@ -73,12 +77,8 @@
 #header {
   margin-left: -60px; /* so that it covers the whole screen without overfilling */
   margin-right: -68px; /* ditto, although this one is hard to get it right */
-  padding-bottom: 20px; 
-  background-color: black;
-  background-image: url(images/hero1.jpg);
-  background-position: -390px -10px;
+  padding-bottom: 20px;
   background-origin: border-box;
-  color: white;
   height: 550px;
   overflow: hidden;
 }
@@ -91,7 +91,7 @@
   line-height: 100%;
   font-family: "Slabo 27px", serif;
   font-size: 72pt;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.59);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.59);
   hyphens: auto;
 }
 #header h2 {
@@ -103,7 +103,7 @@
   font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
   font-size: 30pt;
   font-weight: 200;
-  color: rgb(195, 195, 195);
+  /* text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.59); */
   overflow: hidden;
 }
 
@@ -144,13 +144,20 @@
   margin-left: -60px;
   margin-right: -70px;
   margin-bottom: -10px;
+  overflow: hidden;
 }
-#footer #topFoot p {
-  margin-top: 35px;
+#footer #topFoot p, #footer #topFoot h3 {
+  padding-top: 45px;
 }
 #footer p {
   margin-left: 60px;
   margin-top: -10px;
+  color: rgb(206, 217, 236);
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+#footer h3 {
+  margin-left: 60px;
+  margin-top: 10px;
   color: rgb(206, 217, 236);
   font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
