@@ -6,4 +6,4 @@ This is where I try to waste my time.
 ## Background?
 Originally as an experiment, I decided to expand the website just **because I can**. As I learn, there will be some mistakes, so please do help improve on it.
 ## Now what?
-Dunno.
+Currently I need help on the layout of each webpages. 
